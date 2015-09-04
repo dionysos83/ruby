@@ -1,0 +1,5 @@
+#!/bin/bash
+git add . -A
+git commit -am 'Ruby Start'
+git push origin master
+
