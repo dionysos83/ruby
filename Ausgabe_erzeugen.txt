@@ -1,0 +1,12 @@
+
+
+
+
+
+
+
+Formatieren der Ausgabe:
+	puts "Die Woche besteht aus:\n\tMontag\n\tFreitag."
+	# \n fügt einen Zeilenumbruch ein 
+	# \t fügt einen Tabulator ein
+	
