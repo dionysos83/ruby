@@ -7,6 +7,8 @@ puts "\n\n"
 
 health = health * 3
 health = health / 9
+puts health
+puts health.to_f
 
 puts "\n\n"
 
