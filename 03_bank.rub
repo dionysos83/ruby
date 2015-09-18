@@ -1,0 +1,58 @@
+class Customer
+
+	def initialize(ktonr,lastname)
+		@bank_account = ktonr
+		@lastname = lastname
+	end
+
+	def set_firstname(pfirstname)
+		@firstname = pfirstname
+	end
+
+	def set_street(pstreet)
+		@street = pstreet
+	end
+
+	def set_city(pcity)
+		@city = pcity
+	end
+
+	# def get_firstname
+	# 	"#{@firstname}"
+	# end
+
+	# def get_street
+	# 	"#{@street}"
+	# end
+
+	# def get_city
+	# 	"#{@city}"
+	# end
+
+	def print_adress
+		puts "KtoNr:.......#{@bank_account}"
+		puts "Name:.......#{@firstname} #{@lastname}"
+		puts "Strasse:.......#{@street}"
+		puts "Stadt:.......#{@city}"
+	end
+
+	# #attr_writer :bank_account
+	# #attr_writer :lastname
+	# #attr_writer :firstname
+	# #attr_writer :street
+	# #attr_writer :city
+
+	# #attr_reader :bank_account
+	# attr_reader :lastname
+	# attr_reader :firstname
+	# attr_reader :street
+	# attr_reader :city
+
+end
+
+
+customer1 = Customer.new(1234567,'Mueller')
+customer1.set_firstname('Hans') 
+
+
+customer1.print_adress

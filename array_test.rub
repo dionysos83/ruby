@@ -1,0 +1,5 @@
+test_array = []
+
+loop do
+  test_array << "test" 
+end

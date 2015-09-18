@@ -1,0 +1,30 @@
+
+class Player																								#klasse "player" wird erzeugt
+
+	def initialize(name, health)															#methode "initialize"  wird erzeugt
+	 @name = name
+	 @health = health
+	end
+
+	def say_hello
+		puts "Ich bin #{@name}, mit einem Wert von #{@health}"   #methode "say_hello" wird erzeugt
+	end
+
+	def w00t
+		@health = @health +10
+		puts "#{@name} wurde gew00tet um 10"
+	end
+
+	def blame
+		@health = @health -10
+		puts "#{@name} wurde geblamed um 10"
+	end
+
+end
+
+
+player1 = Player.new('Leo',5)											#neues Objekt (variable playe1)
+player1.say_hello																	#methode say_hello in klasse player wird aufgerufen
+player1.w00t
+#player1.blame
+player1.say_hello

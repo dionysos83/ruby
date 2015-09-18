@@ -1,0 +1,14 @@
+Arrays bieten etliche funktion und können ganz simpel dynamisch bearbeitet werden.
+
+
+Array deklaration
+	
+	Array1 = [wert1, wert2, wert3]
+	Array1 = []
+	Array1 = Array.new
+	Array = %w(eins zwei drei)
+
+# array << "hanswurst" --> Element zum array hinzufügen / array.push("hans2")
+# array.size  --> Anzahl der Elemente im Array.
+# array.pop --> entfernt das letzte Element im Array
+# array.delete_at(2) --> Bestimmtes element Löschen
